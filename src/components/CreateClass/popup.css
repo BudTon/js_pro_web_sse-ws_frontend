@@ -1,0 +1,91 @@
+.popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 5;
+}
+
+.hidden {
+  visibility: hidden;
+  display: none;
+  z-index: -1000;
+}
+
+.widget-create-nikename {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 5;
+}
+
+.shadow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shadow::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(29, 29, 29, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 6;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.title-description {
+  display: flex;
+  align-items: start;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  justify-content: start;
+}
+
+.create-ticket {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  min-height: 40%;
+  text-align: center;
+  margin: auto;
+  background: #fff;
+  border: #000 solid 2px;
+  padding: 30px;
+  border-radius: 10px 10px;
+  z-index: 7;
+}
+
+.input-modal {
+  min-height: 30px;
+}
+
+.btn-widget{
+  border-radius: 10px 10px;
+  background-color: #fff;
+  font-size: 1em;
+  padding: 10px 30px;
+  margin: 4vh 1vh 0 1vh;
+}
+
+.btn-widget:hover {
+  background-color: #0be00e;
+  cursor: pointer;
+}
+
+
