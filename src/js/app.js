@@ -1,6 +1,6 @@
 import createdMessangeElement from '../components/CreateClass/createdMassengeElement';
 
-const ws = new WebSocket('wss://js-pro-web-sse-ws-backend.onrender.com/');
+const ws = new WebSocket('wss://js-pro-web-sse-ws-backend.onrender.com/ws');
 const chat = document.querySelector('.chat');
 const chatMessage = document.querySelector('.chat-message');
 const nikenameModal = document.querySelector('.widget-create-nikename');
