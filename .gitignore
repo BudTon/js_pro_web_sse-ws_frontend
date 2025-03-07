@@ -1,6 +1,5 @@
-dist
-doc
-temp/
+public/*/*.*
+temp/*
 
 # Logs
 
