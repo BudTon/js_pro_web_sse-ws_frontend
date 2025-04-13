@@ -1,5 +1,6 @@
 export default async function checkNikename(nikename) {
-  const request = await fetch('http://localhost:7077/participants', {
+  // const request = await fetch('http://localhost:7077/participants', {
+  const request = await fetch('https://js-pro-web-sse-ws-backend.onrender.com/participants', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
