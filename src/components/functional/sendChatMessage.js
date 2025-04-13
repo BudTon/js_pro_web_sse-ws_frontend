@@ -6,8 +6,8 @@ export default function sendChatMessage(clientNikename) {
   const nikenameModal = document.querySelector('.widget-create-nikename');
   const nikenameList = document.querySelector('.nikename-list');
 
-  // const ws = new WebSocket('wss://js-pro-web-sse-ws-backend.onrender.com/ws');
-  const ws = new WebSocket('ws://localhost:7077/ws');
+  const ws = new WebSocket('wss://js-pro-web-sse-ws-backend.onrender.com/ws');
+  // const ws = new WebSocket('ws://localhost:7077/ws');
 
   chatMessage.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
